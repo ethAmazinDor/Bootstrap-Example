@@ -1,0 +1,41 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.underline {
+    text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-skip: spaces;
+
+}
+
+.underline3 {
+    content: "";
+    width: 5px;
+    display: inline;
+    border-bottom: 4px solid #f9dd94;
+}
+
+.underline4 {
+    width: 5px;
+    display: inline;
+    border-bottom: 4px solid #0d6efd;
+
+}
+
+.underline5 {
+    display: inline;
+    border-bottom: 4px solid green;
+}
+
+.underline1{
+    border-bottom: 4px solid #ffc107;
+
+}
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
